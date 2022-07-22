@@ -40,6 +40,8 @@ cc_library_shared {
     defaults: [
         "camera_needs_miui_camera_mode_support_defaults",
         "camera_needs_camera_needs_depth_sensor_override_defaults",
+        "uses_oplus_camera_defaults",
+        "uses_nothing_camera_defaults",
     ],
 
     // Camera service source
